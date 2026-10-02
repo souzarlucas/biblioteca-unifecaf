@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#002244"/>
+      <stop offset="50%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#005b96"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="12" fill="url(#sbg)"/>
+  <!-- Decorative circles -->
+  <circle cx="500" cy="80" r="120" fill="#4da6ff" opacity="0.1"/>
+  <circle cx="100" cy="300" r="80" fill="#00A8FF" opacity="0.08"/>
+  <!-- Open book illustration -->
+  <g transform="translate(170, 90)">
+    <path d="M130 50 C90 30, 30 35, 10 55 L10 180 C30 160, 90 155, 130 175 Z" fill="#ffffff" opacity="0.85"/>
+    <path d="M130 50 C170 30, 230 35, 250 55 L250 180 C230 160, 170 155, 130 175 Z" fill="#ffffff" opacity="0.95"/>
+    <!-- Spine -->
+    <path d="M130 50 L130 175" stroke="#003366" stroke-width="4"/>
+    <!-- Text lines in book -->
+    <line x1="30" y1="80" x2="105" y2="75" stroke="#003366" stroke-width="2.5" opacity="0.4"/>
+    <line x1="30" y1="105" x2="110" y2="100" stroke="#003366" stroke-width="2.5" opacity="0.4"/>
+    <line x1="30" y1="130" x2="95" y2="125" stroke="#003366" stroke-width="2.5" opacity="0.4"/>
+    <line x1="155" y1="75" x2="230" y2="80" stroke="#003366" stroke-width="2.5" opacity="0.4"/>
+    <line x1="150" y1="100" x2="230" y2="105" stroke="#003366" stroke-width="2.5" opacity="0.4"/>
+    <line x1="155" y1="125" x2="220" y2="130" stroke="#003366" stroke-width="2.5" opacity="0.4"/>
+    <!-- Rising knowledge spark -->
+    <polygon points="130,10 135,28 150,32 135,36 130,54 125,36 110,32 125,28" fill="#ffd166"/>
+  </g>
+  <text x="300" y="320" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Acervo Acadêmico &amp; Tecnológico</text>
+  <text x="300" y="350" fill="#c2d9ff" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" text-anchor="middle">Mais de 40.000 títulos disponíveis para alunos UniFECAF</text>
+</svg>

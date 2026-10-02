@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#001f3f"/>
+      <stop offset="50%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#20639b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="240" rx="12" fill="url(#bbg)"/>
+  <circle cx="850" cy="120" r="140" fill="#4da6ff" opacity="0.12"/>
+  <circle cx="150" cy="20" r="80" fill="#00A8FF" opacity="0.1"/>
+  <!-- Quote and callout -->
+  <text x="80" y="85" fill="#4da6ff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="bold" letter-spacing="2">APRENDIZADO SEM LIMITES</text>
+  <text x="80" y="130" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">Conhecimento que Transforma o Seu Futuro</text>
+  <text x="80" y="170" fill="#c2d9ff" font-family="'Segoe UI', Roboto, sans-serif" font-size="16">Estude a qualquer hora, em qualquer dispositivo com o acervo digital UniFECAF.</text>
+  <!-- Interactive-looking button in banner -->
+  <g transform="translate(730, 95)">
+    <rect x="0" y="0" width="180" height="50" rx="25" fill="#00A8FF"/>
+    <text x="90" y="31" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Cadastre-se Grátis →</text>
+  </g>
+</svg>
